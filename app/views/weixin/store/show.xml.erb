@@ -1,0 +1,14 @@
+<xml>
+ <ToUserName><![CDATA[<%= params[:xml][:FromUserName] %>]]></ToUserName>
+ <FromUserName><![CDATA[<%= params[:xml][:ToUserName] %>]]></FromUserName>
+ <CreateTime><%= Time.now.to_i %></CreateTime>
+ <MsgType><![CDATA[news]]></MsgType>
+ <ArticleCount>1</ArticleCount>
+ <Articles>
+ <item>
+ <Title><![CDATA[kkk]]></Title>
+ <Description><![CDATA[好好吃啊]]></Description>
+ <PicUrl><![CDATA[https://mp.weixin.qq.com/cgi-bin/getimgdata?token=1795447120&msgid=10000001&mode=large&source=file&fileId=10000001]]></PicUrl>
+ <Url><![CDATA[http://mp.weixin.qq.com/mp/appmsg/show?__biz=MzA4MTAxMjgwNA==&appmsgid=10000002&itemidx=1&sign=2e4a6821294dcf575c9c3974365b226c#wechat_redirect]]></Url>
+ </Articles>
+ </xml>
